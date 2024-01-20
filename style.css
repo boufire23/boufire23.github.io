@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    margin-top: 10px;
+}
+
+/* --------- HERDER STLE ----------- */
+header{
+    padding: 0px 40px;
+    height: 80px;
+    background: #ffffff;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #004C89;
+    margin: 0 30px;
+    font-size: 22px;
+    font-weight: 500;
+}
+header a{
+    color: #004C89;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+header li{
+    list-style: none;
+    margin-left: 80px;
+}
+.logo {
+    font-size: 62px;
+    font-weight: 700;
+}
+#t_color {
+    color: #D63635;
+}
+.header_nav_list {
+    display: flex;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.header_nav_list a:hover{
+    color: #D63635;
+    text-decoration: underline;
+    text-decoration-color: #D63635;
+    text-underline-offset: 1rem;
+    transition: all 300ms ease;
+}
+.menu_icon_container{
+    display: none;
+}
+#menu_icon{
+    width: 60px;
+    height: 60px;
+}
+
+
+/* ---------- Containers --------- */
+.main_container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.title_content {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    top: -40px;
+    position: relative;
+}
+
+
+/* ----------- ATTRACT CONTAINER ---------- */
+#attract_container {
+    padding-top: 10px;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #004C89;
+    height: 485px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.subtitle{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+    margin: 0 20px;
+
+}
+#success_style{
+    color: #ffffff;
+    background: #D63635;
+    border-radius: 10px;
+}
+#value_color{
+    color: #D63635;
+}
+.message1 {
+    font-size: 24px;
+    font-weight: 400px;
+}
+.social_link {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* -------- MARKET CONTAINER -------- */
+#market_container {
+    background:#004C89;
+    color: white;
+    justify-content: space-around;
+    height: 650px;
+}
+#message2 {
+    font-size: 20px;
+    color: #94add1;
+}
+#market_title{
+    color: white;
+}
+.product_list {
+    flex-direction: row;
+    display: flex; 
+    justify-content: space-around;
+    width: 80%;
+}
+.product_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 420px;
+}
+.product {
+    width: 250px;
+    height: 350px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.btn_Get{
+    height: 40px;
+    width: 120px;
+    background: #D63635;
+    border-radius: 5px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+}
+#see_market {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    align-self: flex-end;
+    margin-right: 50px;
+}
+
+
+/* --------- 3D PRINTING ----------- */
+#printing_container{
+    background:rgb(243, 243, 243);
+    color: white;
+    justify-content: space-around;
+    height: 650px;
+    color: #004C89;
+    text-align: center;
+}
+#message3{
+    font-size: 20px;
+}
+.printing_sub_container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+}
+.printing_words{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 220px;
+    padding: 0 20px;
+}
+#message4{
+    font-size: 36px;
+    font-weight: 500;
+}
+#value_color{
+    color: #D63635;
+}
+.printing_btn{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.btn {
+    font-size: 22px;
+    border-radius: 10px;
+    border: 1;
+    height: 45px;
+}
+#hire_btn{
+    color: white;
+    background-color: #D63635;
+    padding: 0 10px;
+    border: 0;
+}
+#see_btn {
+    color: #D63635;
+    padding: 0 20px;
+    border-color: #D63635;
+}
+
+
+/* --------- ABOUT CONTAINER ------- */
+#about_container {
+    background:#004C89 ;
+    color: white;
+    justify-content: space-around;
+    height: 560px;
+}
+#about_title{
+    color: white;
+}
+#owners_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    height: 400px;
+}
+.owner{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 30%;
+}
+#person {
+    width: 70%;
+    border-radius: 50%;
+    background:rgba(255, 255, 255, 0.1);
+}
+.name_owners{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.profession_owners{
+    color: #94add1;
+    font-size: 28px;
+    font-weight: 600;
+}
+.experiences{
+    color: #94add1;
+    font-size: 20px;
+
+}
+
+/* ------------- FOOTER ----------*/
+footer{
+    background-color: #D63635;
+    color: #d0e0f5;
+    font-size: 18px;
+    font-weight: 600;
+    height: 30px;
+    text-align: center;
+}
