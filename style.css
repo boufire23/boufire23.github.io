@@ -140,7 +140,7 @@ svg {
 
 /* ------------ container two --------- */
 .container_two{
-    height: 600px;
+    height: 620px;
     background-color: #f3f3f3;
     display: flex;
     flex-direction: column;
